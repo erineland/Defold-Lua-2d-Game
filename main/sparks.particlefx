@@ -14,7 +14,7 @@ emitters {
     z: 0.0
     w: 1.0
   }
-  tile_source: "/def-magic-link/sprites.atlas"
+  tile_source: "/def-forest-frenzy/sprites.atlas"
   animation: "white_dot2"
   material: "/builtins/materials/particlefx.material"
   blend_mode: BLEND_MODE_ADD
@@ -215,6 +215,11 @@ emitters {
       t_y: 0.0
     }
   }
+  size_mode: SIZE_MODE_MANUAL
+  start_delay_spread: 0.0
+  duration_spread: 0.0
+  stretch_with_velocity: false
+  start_offset: 0.0
 }
 modifiers {
   type: MODIFIER_TYPE_VORTEX
@@ -248,5 +253,6 @@ modifiers {
       t_x: 1.0
       t_y: 0.0
     }
+    spread: 0.0
   }
 }

@@ -1,5 +1,5 @@
 [project]
-title = Magic Link
+title = Forest Frenzy
 
 [bootstrap]
 main_collection = /main/main.collectionc
@@ -33,5 +33,5 @@ max_count = 512
 package = com.example.linker
 
 [library]
-include_dirs = def-magic-link
+include_dirs = def-forest-frenzy
 

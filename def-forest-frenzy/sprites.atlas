@@ -1,0 +1,45 @@
+images {
+  image: "/def-forest-frenzy/images/blue.png"
+}
+images {
+  image: "/def-forest-frenzy/images/green.png"
+}
+images {
+  image: "/def-forest-frenzy/images/orange.png"
+}
+images {
+  image: "/def-forest-frenzy/images/pink.png"
+}
+images {
+  image: "/def-forest-frenzy/images/yellow.png"
+}
+images {
+  image: "/def-forest-frenzy/images/magic-sphere_layer1.png"
+}
+images {
+  image: "/def-forest-frenzy/images/magic-sphere_layer2.png"
+}
+images {
+  image: "/def-forest-frenzy/images/magic-sphere_layer3.png"
+}
+images {
+  image: "/def-forest-frenzy/images/magic-sphere_layer4.png"
+}
+images {
+  image: "/def-forest-frenzy/images/bg_820x1200.png"
+}
+images {
+  image: "/def-forest-frenzy/images/white_dot.png"
+}
+images {
+  image: "/def-forest-frenzy/images/white_dot2.png"
+}
+images {
+  image: "/def-forest-frenzy/images/bg_start_820x1200.png"
+}
+images {
+  image: "/def-forest-frenzy/images/marked.png"
+}
+margin: 0
+extrude_borders: 4
+inner_padding: 0

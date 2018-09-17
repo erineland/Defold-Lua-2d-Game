@@ -1,0 +1,18 @@
+images {
+  image: "/def-forest-frenzy/images/button_NO.png"
+}
+images {
+  image: "/def-forest-frenzy/images/button-YES.png"
+}
+images {
+  image: "/def-forest-frenzy/images/button1.png"
+}
+images {
+  image: "/def-forest-frenzy/images/drop1_icon.png"
+}
+images {
+  image: "/def-forest-frenzy/images/pop_up_plate.png"
+}
+margin: 0
+extrude_borders: 0
+inner_padding: 0
