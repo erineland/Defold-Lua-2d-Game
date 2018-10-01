@@ -1,4 +1,8 @@
 script: ""
+textures {
+  name: "gui"
+  texture: "/def-forest-frenzy/gui.atlas"
+}
 background_color {
   x: 0.0
   y: 0.0
@@ -7,8 +11,8 @@ background_color {
 }
 nodes {
   position {
-    x: 366.0
-    y: 424.0
+    x: 322.0
+    y: 479.0
     z: 0.0
     w: 1.0
   }
@@ -25,8 +29,8 @@ nodes {
     w: 1.0
   }
   size {
-    x: 200.0
-    y: 100.0
+    x: 640.0
+    y: 958.0
     z: 0.0
     w: 1.0
   }
@@ -38,7 +42,7 @@ nodes {
   }
   type: TYPE_BOX
   blend_mode: BLEND_MODE_ALPHA
-  texture: ""
+  texture: "gui/winding_forest_path"
   id: "box"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
@@ -57,7 +61,7 @@ nodes {
   clipping_inverted: false
   alpha: 1.0
   template_node_child: false
-  size_mode: SIZE_MODE_AUTO
+  size_mode: SIZE_MODE_MANUAL
 }
 material: "/builtins/materials/gui.material"
 adjust_reference: ADJUST_REFERENCE_PARENT
