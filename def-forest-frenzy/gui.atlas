@@ -13,6 +13,9 @@ images {
 images {
   image: "/def-forest-frenzy/images/pop_up_plate.png"
 }
+images {
+  image: "/def-forest-frenzy/images/winding_forest_path.jpg"
+}
 margin: 0
 extrude_borders: 0
 inner_padding: 0
