@@ -12,15 +12,19 @@ function on_message(self, message_id, message, sender)
 		msg.post("main:/main#menu", "enable")
 		msg.post("#background", "enable")
 		self.state = "MAIN_MENU"
-	elseif message_id == hash("start_game") then
+	elseif message_id == hash("level_select") then
+		msg.post("#levelselectionproxy", "load")
 		msg.post("#background", "disable")
-		msg.post("#boardproxy", "load")
 		msg.post("#menu", "disable")
+	--elseif message_id == hash("start_game") then
+		--msg.post("#background", "disable")
+		--msg.post("#boardproxy", "load")
+		--msg.post("#menu", "disable")
 	elseif message_id == hash("proxy_loaded") then
-		-- Board collection has loaded...
+		-- Board collection or level selection has loaded...
 		msg.post(sender, "init")
-		msg.post("board:/board#script", "start_level", { difficulty = 1 })
+		--msg.post("board:/board#script", "start_level", { difficulty = 1 })
 		msg.post(sender, "enable")
-		self.state = "GAME_RUNNING"
+		--self.state = "GAME_RUNNING"
 	end    
 end
